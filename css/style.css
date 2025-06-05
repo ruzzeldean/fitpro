@@ -1,0 +1,96 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-close {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/hero/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home-page, #error-page {
+  min-height: 100dvh;
+}
+
+#about-img {
+  max-width: 200px;
+}
+
+#founder {
+  background-image: url("../img/about-page/founder.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1 / 1;
+}
+
+#about-products,
+#about-services {
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
+}
+
+#about-products {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/about-page/dumbbells.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#about-services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/about-page/gym-training.jpg");
+}
+
+.product-card-img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+#contact-form {
+  max-width: 600px;
+}
+
+#error-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg/cool-duck-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

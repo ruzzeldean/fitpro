@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitPro</title>
+  <link rel="shortcut icon" href="img/logo/logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="./">FitPro</a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navMenu" aria-controls="navMenu" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navMenu" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title pe-5" id="offcanvasNavbarLabel">FitPro</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./products.html">Products</a></li>
+                    <li><a class="dropdown-item active" href="./services.html"  aria-current="page">Services</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-person"></i>
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+                    <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-cart-fill"></i>
+                    <span class="d-lg-none">Cart</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/ruzzeldean/fitpro" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span class="d-lg-none">Source Code</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="">
+      <section class="hero-section d-flex justify-content-center align-items-center py-5 text-center">
+        <div class="container py-5">
+          <div class="py-lg-5">
+            <h1 class="display-3 fw-semibold">Services</h1>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container py-5">
+          <h2 class="display-4 fw-semibold mb-4 text-center text-md-start">Featured Service</h2>
+
+          <div class="rounded shadow">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="p-3 pe-md-0">
+                  <img class="img-fluid rounded" src="./img/services/personal-training.jpg" alt="Hex Dumbbells">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="p-3 pt-0 pb-3 pt-md-2 ps-md-0">
+                  <h2 class="display-5 fw-medium">Personal Training Session</h2>
+                  <p class="lead mb-4">One-on-one coaching with certified trainers via video calls or in-person.</p>
+
+                  <h4>Php 1,500.00 per session</h4>
+
+                  <div class="text-center text-lg-start">
+                    <button class="btn btn-primary btn-lg text-nowrap mt-4">Book Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-body-tertiary py-5">
+        <div class="container">
+          <div class="row row-gap-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="h-100">
+                <div class="card d-flex flex-column h-100 shadow">
+                  <img class="card-img-top product-card-img" src="./img/services/personal-training.jpg" alt="Personal Training Session">
+                  
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title mb-2">Personal Training Session</h3>
+                    <p class="card-text mb-3">One-on-one coaching with certified trainers via video calls or in-person.</p>
+                    <h5 class="mt-auto mb-4">Php 1,500.00 per session</h5>
+
+                    <button class="btn btn-primary w-100">
+                      <i class="bi bi-bookmark-plus-fill pe-1"></i>
+                      Book Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="h-100">
+                <div class="card d-flex flex-column h-100 shadow">
+                  <img class="card-img-top product-card-img" src="./img/services/online-fitness-class.jpg" alt="Online Fitness Class">
+                  
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title mb-2">Online Fitness Classes</h3>
+                    <p class="card-text mb-3">Live or on-demand workout classes (e.g., yoga, HIIT) accessible via subscription.</p>
+                    <h5 class="mt-auto mb-4">Php 800.00 per month</h5>
+
+                    <button class="btn btn-primary w-100">
+                      <i class="bi bi-bookmark-plus-fill pe-1"></i>
+                      Book Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="h-100">
+                <div class="card d-flex flex-column h-100 shadow">
+                  <img class="card-img-top product-card-img" src="./img/services/nutrition-planning.jpg" alt="Nutrition Planning">
+                  
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title mb-2">Nutrition Planning</h3>
+                    <p class="card-text mb-3">Customized meal plans by nutritionists tailored to fitness goals.</p>
+                    <h5 class="mt-auto mb-4">Php 2,000.00 for a 4-week plan</h5>
+
+                    <button class="btn btn-primary w-100">
+                      <i class="bi bi-bookmark-plus-fill pe-1"></i>
+                      Book Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="h-100">
+                <div class="card d-flex flex-column h-100 shadow">
+                  <img class="card-img-top product-card-img" src="./img/services/equipment-renting.jpg" alt="Equipment Rental">
+                  
+                  <div class="card-body d-flex flex-column">
+                    <h3 class="card-title mb-2">Equipment Rental</h3>
+                    <p class="card-text mb-3">Rent fitness equipment like dumbbells or treadmills for home use.</p>
+                    <h5 class="mt-auto mb-4">Php 1,000.00 per month</h5>
+
+                    <button class="btn btn-primary w-100">
+                      <i class="bi bi-bookmark-plus-fill pe-1"></i>
+                      Book Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5">
+      <div class="container">
+        <div class="row row-gap-4">
+          <div class="col-md-4">
+            <div class="h-100">
+              <h2 class="mb-4">FitPro</h2>
+              <p class="">&copy; 2025 FitPro. <a href="https://github.com/ruzzeldean/fitpro/blob/main/LICENSE" target="_blank">MIT</a> Licensed. For educational purposes only.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="h-100">
+              <h2 class="mb-3">Quick Links</h2>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./products.html">Products</a></li>
+                    <li><a class="dropdown-item" href="./services.html">Services</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                    <i class="bi bi-person pe-1"></i>
+                    Account
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+                    <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="bi bi-cart-fill pe-1"></i>
+                    Cart
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/ruzzeldean/fitpro" target="_blank">
+                    <i class="bi bi-github pe-1"></i>
+                    Source Code
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="h-100">
+              <h2 class="mb-3">Get in Touch</h2>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">fitpro.xyz@gmail.com</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">+63 929 404 8080</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">404 Kabalitang St. Quezon City, Philippines</a>
+                </li>
+                <div class="d-flex gap-3 fs-5">
+                  <li>
+                    <a class="nav-link" href="https://facebook_com/fitpro.xyz"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://t.me/fitpro"><i class="bi bi-telegram"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="https://x.com/fitpro"><i class="bi bi-twitter-x"></i></a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="loginModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h2 id="loginModalLabel" class="modal-title fs-4">Account Login</h2>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="login-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="login-email" placeholder="Enter email" required>
+              </div>
+
+              <div class="mb-5">
+                <label for="login-password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="login-password" placeholder="Enter password" required>
+              </div>
+
+              <div class="text-end">
+                <input type="submit" class="btn btn-primary">
+
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="registrationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h2 id="registrationModalLabel" class="modal-title fs-4">Account Registration</h2>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="first-name" placeholder="Enter First Name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="middle-name" class="form-label">Middle Name</label>
+                <input type="text" class="form-control" id="middle-name" placeholder="Enter Middle Name">
+              </div>
+
+              <div class="mb-3">
+                <label for="last-name" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="registration-email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="registration-email" placeholder="Enter email" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="registration-password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="registration-password" placeholder="Enter password" required>
+              </div>
+
+              <div class="mb-5">
+                <label for="confirm-password" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm password" required>
+              </div>
+
+              <div class="text-end">
+                <input type="submit" class="btn btn-primary">
+
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
