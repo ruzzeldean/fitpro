@@ -1,6 +1,6 @@
 # FitPro
 
-An sport and fitness website (?) made with HTML, CSS, and Bootstrap 5.
+A sport and fitness website (?) made with HTML, CSS, and Bootstrap 5.
 
 Sofer lame.
 
